@@ -1,0 +1,57 @@
+[
+  {
+    "key": "Meta+F9",
+    "inputEvents": [
+      {
+        "type": "keyDown",
+        "keyCode": "Space"
+      }
+    ]
+  },
+  {
+    "key": "Meta+F8",
+    "inputEvents": [
+      {
+        "type": "keyDown",
+        "keyCode": "Shift"
+      },
+      {
+        "type": "keyDown",
+        "keyCode": "Left",
+        "modifiers": ["shift"]
+      },
+      {
+        "type": "keyUp",
+        "keyCode": "Left",
+        "modifiers": ["shift"]
+      },
+      {
+        "type": "keyUp",
+        "keyCode": "Shift"
+      }
+    ]
+  },
+  {
+    "key": "Meta+F10",
+    "inputEvents": [
+      {
+        "type": "keyDown",
+        "keyCode": "Shift"
+      },
+      {
+        "type": "keyDown",
+        "keyCode": "Right",
+        "modifiers": ["shift"]
+      },
+      {
+        "type": "keyUp",
+        "keyCode": "Right",
+        "modifiers": ["shift"]
+      },
+      {
+        "type": "keyUp",
+        "keyCode": "Shift"
+      }
+    ]
+  }
+]
